@@ -2,10 +2,8 @@
   display: flex;
   flex-direction: column;
 
-  box-sizing: border-box;
   width: 200px;
-  padding: auto;
-  padding: 16px 12px 12px;
+  padding: 32px 16px 16px;
   border: 1px solid #f3f3f3;
 
   background-color: #fff;
@@ -97,7 +95,7 @@
   background-color: #00acdc;
 }
 
-.card:hover .card__buy-button {
+.card__buy-button:hover {
   color: #00acdc;
   background-color: #fff;
 }
