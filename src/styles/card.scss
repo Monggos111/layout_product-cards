@@ -94,10 +94,10 @@
     color: $color-white;
 
     background-color: $color-accent-blue;
-  }
-}
 
-.card__buy-button:hover {
-  color: $color-accent-blue;
-  background-color: $color-white;
+    &:hover {
+      color: $color-accent-blue;
+      background-color: $color-white;
+    }
+  }
 }
